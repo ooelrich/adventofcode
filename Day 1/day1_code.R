@@ -13,9 +13,7 @@ for (i in seq_len(n-1)) {
 }
 
 vals <- data$val[sol]
-# sum(vals)
 b <- prod(vals)
-
 print(paste(vals[1], " * ", vals[2], " = ", b))
 
 
@@ -30,6 +28,5 @@ for (i in seq_len(n-2)) {
 }
 
 vals <- data$val[sol]
-# sum(vals)
 b <- prod(vals)
 print(paste(vals[1], " * ", vals[2], " * ", vals[3], " = ", b))
