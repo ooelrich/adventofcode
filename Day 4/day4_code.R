@@ -116,5 +116,4 @@ for (i in seq_len(285)) {
     if (sum(a) == 7) is_ok[i] <- 1
 }
 
-
 sum(is_ok)
